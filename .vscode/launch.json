@@ -1,0 +1,32 @@
+{
+    // VS Code debug configurations for Flutter apps
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Flutter: Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Flutter: Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Flutter: Attach to running app",
+            "request": "attach",
+            "type": "dart"
+            // optionally add "deviceId": "<device id>" to attach to a specific device
+        }
+    ]
+}
